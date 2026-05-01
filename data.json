@@ -1,11 +1,92 @@
 [
   {
+    "country": "andorra",
+    "standard": 4.5,
+    "reduced": [9.5, 1, 0],
+    "zero": false,
+    "notes": "IGI (Impost General Indirecte) 4.5% standard — one of the lowest consumption-tax rates in Europe. 9.5% increased rate on banking/financial services; 1% reduced (food, water, books, periodicals); 0% on healthcare and education. Registration threshold €40,000.",
+    "source_url": "https://www.impostos.ad/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "argentina",
+    "standard": 21,
+    "reduced": [10.5, 27],
+    "zero": false,
+    "notes": "IVA 21% standard. Reduced 10.5% (some food, transport, books, cultural events, services to small businesses). Increased 27% (utilities to non-residential consumers). Monotributo regime simplifies tax for small earners. Exports of services zero-rated.",
+    "source_url": "https://www.afip.gob.ar/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "australia",
     "standard": 10,
     "reduced": [],
     "zero": false,
     "notes": "GST is 10%. Registration required if GST turnover is A$75,000 or more (A$150,000 for non-profits); voluntary below. Exports of services to non-residents outside Australia are GST-free (zero-rated). Some items (most basic food, healthcare, education) are GST-free.",
     "source_url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "austria",
+    "standard": 20,
+    "reduced": [13, 10],
+    "zero": false,
+    "notes": "USt 20% standard. Reduced 13% (artists, accommodation, cultural events, sport). Reduced 10% (food, books, rentals, public transport, medicine). Kleinunternehmer threshold €55,000 (since 2025). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.bmf.gv.at/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "bangladesh",
+    "standard": 15,
+    "reduced": [10, 7.5, 5, 2.5],
+    "zero": false,
+    "notes": "VAT 15% standard, with various truncated/sector-specific rates of 10%, 7.5%, 5%, and 2.5%. Registration threshold BDT 30 lakh (turnover) for VAT, BDT 50 lakh for full VAT. Exports zero-rated.",
+    "source_url": "https://nbr.gov.bd/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "belgium",
+    "standard": 21,
+    "reduced": [12, 6],
+    "zero": false,
+    "notes": "TVA/BTW 21% standard. Reduced 12% (some food/restaurant, social housing). Reduced 6% (most food, books, water, medical, public transport). Small-business VAT exemption for turnover ≤ €25,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://finance.belgium.be/en/enterprises/vat",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "botswana",
+    "standard": 14,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 14% (reverted from temporary 12% reduction on 1 Apr 2023). Registration threshold P 1,000,000 annual turnover. Exports zero-rated.",
+    "source_url": "https://www.burs.org.bw/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "brazil",
+    "standard": null,
+    "reduced": [],
+    "zero": false,
+    "notes": "Brazil currently uses multiple consumption taxes rather than a single VAT: ICMS (state, ~17–19%), IPI (federal manufacturing), ISS (municipal services, 2–5%), and PIS/COFINS (federal). Major tax reform (constitutional amendment 132/2023) phases in IBS + CBS over 2026–2033, targeting a combined ~26.5% — transitional period began 2026. Freelancer services typically subject to ISS 2–5% plus PIS/COFINS. No single 'standard' rate maps cleanly.",
+    "source_url": "https://www.gov.br/receitafederal/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "british-virgin-islands",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "BVI has no VAT, GST, or sales tax. Some import duties and stamp duty apply. Invoices do not include consumption tax.",
+    "source_url": "https://bvi.gov.vg/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "bulgaria",
+    "standard": 20,
+    "reduced": [9],
+    "zero": false,
+    "notes": "DDS (VAT) 20% standard. Reduced 9% on accommodation, restaurants, books, baby products. Registration threshold BGN 100,000 (~€51,130) annual turnover. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://nra.bg/",
     "verified_date": "2026-05-01"
   },
   {
@@ -18,12 +99,138 @@
     "verified_date": "2026-05-01"
   },
   {
+    "country": "chile",
+    "standard": 19,
+    "reduced": [],
+    "zero": false,
+    "notes": "IVA 19% standard. No reduced rates. Pro-PYME and simplified regimes available for small businesses. Exports of services zero-rated where they qualify under SII rules.",
+    "source_url": "https://www.sii.cl/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "china",
     "standard": 13,
     "reduced": [9, 6],
     "zero": false,
     "notes": "Standard VAT 13% (sale/import of goods, processing). 9% applies to transport, postal, basic telecom, construction, real estate, agricultural products. 6% applies to modern services (R&D, IT, consulting), financial services, value-added telecom. Small-scale taxpayers (turnover ≤ CN¥5M) pay 3% (temporarily reduced to 1% through 2027). Exports of services generally zero-rated or exempt.",
     "source_url": "http://www.chinatax.gov.cn/eng/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "colombia",
+    "standard": 19,
+    "reduced": [5],
+    "zero": false,
+    "notes": "IVA 19% standard. Reduced 5% on some food staples, agricultural inputs, hotels and tourism. Many essential goods exempt or zero-rated. Régimen simple available for small businesses up to a UVT-based turnover ceiling.",
+    "source_url": "https://www.dian.gov.co/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "costa-rica",
+    "standard": 13,
+    "reduced": [4, 2, 1],
+    "zero": false,
+    "notes": "IVA 13% standard. Reduced 4% (private health, private education, residential rent above threshold). 2% (medicines, private health insurance). 1% (basic-food basket, agricultural inputs). Régimen simplificado available for very small taxpayers.",
+    "source_url": "https://www.hacienda.go.cr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "croatia",
+    "standard": 25,
+    "reduced": [13, 5],
+    "zero": false,
+    "notes": "PDV 25% standard. Reduced 13% (accommodation, restaurants, newspapers, edible oils). Reduced 5% (basic food, books, medicines, baby products). Registration threshold €40,000 from 2025. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.porezna-uprava.hr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "cyprus",
+    "standard": 19,
+    "reduced": [9, 5, 3],
+    "zero": false,
+    "notes": "FPA (VAT) 19% standard. Reduced 9% (hotels, restaurants, transport). Reduced 5% (food, books, medicines, primary residences). Super-reduced 3% (some books, periodicals). Registration threshold €15,600 annual turnover. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.mof.gov.cy/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "czech-republic",
+    "standard": 21,
+    "reduced": [12],
+    "zero": false,
+    "notes": "DPH 21% standard. Reduced 12% (consolidated from 15% and 10% on 1 Jan 2024) for food, medicines, books, public transport, accommodation. Registration threshold CZK 2,000,000 (raised in 2025). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.financnisprava.cz/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "denmark",
+    "standard": 25,
+    "reduced": [],
+    "zero": false,
+    "notes": "Moms 25% flat — no reduced rates (newspapers and some exports zero-rated). Registration threshold DKK 50,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://skat.dk/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "dubai",
+    "standard": 5,
+    "reduced": [],
+    "zero": false,
+    "notes": "Dubai is part of the UAE and uses UAE federal VAT at 5%. There is no separate Dubai-only rate. Registration threshold AED 375,000 (mandatory) / AED 187,500 (voluntary). Exports of services to non-residents zero-rated. See 'united-arab-emirates' entry for the same data.",
+    "source_url": "https://tax.gov.ae/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "ecuador",
+    "standard": 15,
+    "reduced": [5],
+    "zero": false,
+    "notes": "IVA 15% (raised from 12% on 1 Apr 2024 to fund security spending; previously raised temporarily to 13% in 2024 before settling at 15%). Reduced 5% on a small set of construction materials. Exports zero-rated.",
+    "source_url": "https://www.sri.gob.ec/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "egypt",
+    "standard": 14,
+    "reduced": [5],
+    "zero": false,
+    "notes": "VAT 14% standard. Schedule tax of 5% applies to certain goods/services (e.g., professional services). Registration threshold EGP 500,000 annual turnover. Exports zero-rated.",
+    "source_url": "https://www.eta.gov.eg/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "el-salvador",
+    "standard": 13,
+    "reduced": [],
+    "zero": false,
+    "notes": "IVA 13% standard. No reduced rates. Registration threshold US$5,714.29 of annual income or US$2,857.14 of net worth (whichever is greater). Exports zero-rated.",
+    "source_url": "https://www.mh.gob.sv/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "estonia",
+    "standard": 24,
+    "reduced": [13, 9, 5],
+    "zero": false,
+    "notes": "KMD 24% (raised from 22% on 1 Jul 2025; was 20% before 1 Jan 2024). Reduced 13% (accommodation from 2025). Reduced 9% (books, medicines). Reduced 5% (press publications). Registration threshold €40,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.emta.ee/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "fiji",
+    "standard": 15,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 15% (raised from 9% on 1 Aug 2023). Registration threshold FJ$100,000. Exports zero-rated.",
+    "source_url": "https://www.frcs.org.fj/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "finland",
+    "standard": 25.5,
+    "reduced": [14, 10],
+    "zero": false,
+    "notes": "ALV 25.5% (raised from 24% on 1 Sep 2024). Reduced 14% (food, restaurants, animal feed). Reduced 10% (books, accommodation, transport, cinema, prescription medicines). Registration threshold €20,000 (since 2025). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.vero.fi/",
     "verified_date": "2026-05-01"
   },
   {
@@ -36,12 +243,66 @@
     "verified_date": "2026-05-01"
   },
   {
+    "country": "georgia",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 18% standard. Registration threshold GEL 100,000 over any 12-month period. Exports of services zero-rated where conditions met.",
+    "source_url": "https://rs.ge/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "germany",
     "standard": 19,
     "reduced": [7],
     "zero": false,
-    "notes": "Umsatzsteuer (USt) standard 19%, reduced 7% (food, books, periodicals, public transport). Kleinunternehmer (small business) regulation: no USt charged if previous year's turnover ≤ €22,000 and current year ≤ €100,000 (since 2025 reform). B2B services to clients in other EU countries typically reverse-charged.",
+    "notes": "Umsatzsteuer (USt) standard 19%, reduced 7% (food, books, periodicals, public transport). Kleinunternehmer (small business) regulation: no USt charged if previous year's turnover ≤ €25,000 and current year ≤ €100,000 (since 2025 reform). B2B services to clients in other EU countries typically reverse-charged.",
     "source_url": "https://www.bzst.de/EN/Businesses/VAT/vat_node.html",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "ghana",
+    "standard": 15,
+    "reduced": [3],
+    "zero": false,
+    "notes": "VAT 15% standard plus levies — NHIL 2.5%, GETFund 2.5%, COVID-19 Health Recovery Levy 1% — combine with cascading to an effective rate of ~21.9% on most supplies. Reduced 3% flat-rate scheme available to certain retailers. Registration threshold GHS 200,000 annual turnover.",
+    "source_url": "https://gra.gov.gh/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "gibraltar",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "Gibraltar has no VAT, GST, or sales tax. Import duty applies to many goods. Invoices do not include consumption tax.",
+    "source_url": "https://www.gibraltar.gov.gi/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "greece",
+    "standard": 24,
+    "reduced": [13, 6],
+    "zero": false,
+    "notes": "FPA 24% standard. Reduced 13% (some food, fresh agricultural products, electricity). Reduced 6% (medicines, books, theatre, vaccines). Some Aegean islands historically had 30% lower rates (largely phased out). Registration threshold €10,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.aade.gr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "guadeloupe",
+    "standard": 8.5,
+    "reduced": [2.1],
+    "zero": false,
+    "notes": "TVA at lower rates than mainland France: 8.5% standard, 2.1% reduced (most food, books, etc.). Same regime as Martinique and Réunion. EU rules apply for B2B services to other EU member states.",
+    "source_url": "https://www.economie.gouv.fr/entreprises/tva-taux",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "guernsey",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "Guernsey has no VAT or GST. Some specific duties apply on imports. Invoices do not include consumption tax.",
+    "source_url": "https://www.gov.gg/tax",
     "verified_date": "2026-05-01"
   },
   {
@@ -54,12 +315,66 @@
     "verified_date": "2026-04-24"
   },
   {
+    "country": "hungary",
+    "standard": 27,
+    "reduced": [18, 5],
+    "zero": false,
+    "notes": "ÁFA 27% — highest VAT rate in the EU. Reduced 18% (some basic food, accommodation services). Reduced 5% (medicines, books, internet, some food, district heating). Alanyi adómentesség threshold HUF 12,000,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://nav.gov.hu/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "india",
+    "standard": 18,
+    "reduced": [12, 5, 0],
+    "zero": false,
+    "notes": "GST is multi-tier with slabs of 0%, 5%, 12%, 18% (most common for services), and 28% (luxury, sin goods). Composition scheme available for small businesses with turnover below ₹1.5 crore (1.5M). Registration threshold ₹40 lakh for goods or ₹20 lakh for services (lower in special-category states). Exports zero-rated.",
+    "source_url": "https://www.gst.gov.in/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "indonesia",
+    "standard": 12,
+    "reduced": [11],
+    "zero": false,
+    "notes": "PPN raised to 12% on 1 Jan 2025. Government applies an adjusted base for non-luxury goods/services so the effective rate remains ~11% for most items; 12% applies fully to luxury goods. Registration threshold IDR 4.8 billion. Exports zero-rated.",
+    "source_url": "https://www.pajak.go.id/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "ireland",
+    "standard": 23,
+    "reduced": [13.5, 9, 4.8],
+    "zero": false,
+    "notes": "VAT 23% standard. Reduced 13.5% (some services, fuel, construction, professional services). Reduced 9% (newspapers, e-books, hospitality during certain periods). Super-reduced 4.8% (livestock). Registration threshold €42,500 services / €85,000 goods (from 2025). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.revenue.ie/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "isle-of-man",
+    "standard": 20,
+    "reduced": [5],
+    "zero": false,
+    "notes": "VAT 20% standard, 5% reduced — administered jointly with the UK under a customs and excise common-purse arrangement. Registration threshold mirrors UK at £90,000.",
+    "source_url": "https://www.gov.im/categories/tax-vat-and-your-money/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "israel",
     "standard": 18,
     "reduced": [],
     "zero": false,
     "notes": "VAT (Ma'am) raised to 18% on 1 January 2025 (from 17%). No reduced rates. 'Osek Patur' (exempt dealer) status available for annual turnover below ~ILS 120,000 — does not charge VAT. Exports of services to non-residents are zero-rated.",
     "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "italy",
+    "standard": 22,
+    "reduced": [10, 5, 4],
+    "zero": false,
+    "notes": "IVA 22% standard. Reduced 10%, 5%, 4% (super-reduced) for various essentials. Regime forfettario for self-employed with revenue ≤ €85,000 — pays 5% or 15% substitute tax and does not charge IVA. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.agenziaentrate.gov.it/",
     "verified_date": "2026-05-01"
   },
   {
@@ -72,12 +387,165 @@
     "verified_date": "2026-05-01"
   },
   {
+    "country": "jersey",
+    "standard": 5,
+    "reduced": [],
+    "zero": false,
+    "notes": "GST 5% (raised from 3% on 1 Jun 2011). Registration threshold £300,000. Exports zero-rated.",
+    "source_url": "https://www.gov.je/taxesmoney/gst/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "kenya",
+    "standard": 16,
+    "reduced": [8],
+    "zero": false,
+    "notes": "VAT 16% standard. Reduced 8% on petroleum products (LPG, etc.). Registration threshold KES 5,000,000. Exports zero-rated.",
+    "source_url": "https://www.kra.go.ke/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "latvia",
+    "standard": 21,
+    "reduced": [12, 5],
+    "zero": false,
+    "notes": "PVN 21% standard. Reduced 12% (medicines, accommodation). Reduced 5% (specific food, books). Registration threshold €50,000 (raised). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.vid.gov.lv/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "liechtenstein",
+    "standard": 8.1,
+    "reduced": [3.8, 2.6],
+    "zero": false,
+    "notes": "VAT 8.1% standard (raised from 7.7% on 1 Jan 2024). Special accommodation rate 3.8%. Reduced 2.6% (food, books, medicines). Liechtenstein uses the Swiss VAT system under treaty. Registration threshold CHF 100,000 worldwide turnover.",
+    "source_url": "https://www.llv.li/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "lithuania",
+    "standard": 21,
+    "reduced": [9, 5],
+    "zero": false,
+    "notes": "PVM 21% standard. Reduced 9% (books, public transport, accommodation, firewood). Reduced 5% (medicines, periodicals, technical aids for the disabled). Registration threshold €45,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.vmi.lt/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "luxembourg",
+    "standard": 17,
+    "reduced": [14, 8, 3],
+    "zero": false,
+    "notes": "TVA 17% standard (returned from temporary 16% on 1 Jan 2024) — lowest standard rate in the EU. Intermediate 14%, reduced 8%, super-reduced 3%. Registration threshold €50,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://impotsdirects.public.lu/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "malaysia",
     "standard": 8,
     "reduced": [6],
     "zero": false,
     "notes": "Malaysia uses Sales and Service Tax (SST), not VAT. Service Tax 8% (raised from 6% on 1 March 2024) on most taxable services; 6% retained for food & beverage, telecom, parking, logistics. Sales Tax on goods 5% or 10%. Service Tax registration threshold typically RM 500,000 annual turnover (varies by service category). Exports of services generally not subject to service tax.",
     "source_url": "https://mysst.customs.gov.my/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "malta",
+    "standard": 18,
+    "reduced": [12, 7, 5],
+    "zero": false,
+    "notes": "VAT 18% standard. Reduced 12% (rental of pleasure boats, healthcare services, some securities custody). Reduced 7% (accommodation, sports/fitness). Reduced 5% (medical accessories, books, electricity, confectionery). Registration threshold €35,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://cfr.gov.mt/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "marshall-islands",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "No VAT or GST. Has import duties and a gross revenue tax (~3–8% depending on bracket) on businesses. Invoices do not include consumption tax.",
+    "source_url": "https://www.rmiembassyus.org/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "martinique",
+    "standard": 8.5,
+    "reduced": [2.1],
+    "zero": false,
+    "notes": "TVA at lower rates than mainland France: 8.5% standard, 2.1% reduced. Same regime as Guadeloupe and Réunion. EU rules apply for B2B services to other EU member states.",
+    "source_url": "https://www.economie.gouv.fr/entreprises/tva-taux",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "mayotte",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "TVA does not apply in Mayotte. Local octroi de mer (regional consumption duty) applies on goods. Invoices for services typically do not include consumption tax.",
+    "source_url": "https://www.impots.gouv.fr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "mexico",
+    "standard": 16,
+    "reduced": [8, 0],
+    "zero": false,
+    "notes": "IVA 16% standard. Reduced 8% in northern and southern border zones. 0% on basic foodstuffs, books, medicines and exports. RIF and RESICO regimes simplify tax for small taxpayers.",
+    "source_url": "https://www.sat.gob.mx/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "micronesia",
+    "standard": null,
+    "reduced": [],
+    "zero": false,
+    "notes": "No federal VAT. Some states levy a local sales tax (e.g., Pohnpei 5%, Yap, Chuuk vary). Federal gross revenue tax applies to businesses.",
+    "source_url": "https://www.fsmrd.fm/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "monaco",
+    "standard": 20,
+    "reduced": [10, 5.5, 2.1],
+    "zero": false,
+    "notes": "Monaco uses the French TVA system under bilateral convention: 20% standard, 10%, 5.5%, 2.1%. Registration and rules mirror France.",
+    "source_url": "https://www.gouv.mc/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "montenegro",
+    "standard": 21,
+    "reduced": [7, 0],
+    "zero": false,
+    "notes": "PDV 21% standard (raised from 19%). Reduced 7% (food, books, medicines, tourism). Zero rate on medicines on positive list and certain books. Registration threshold €30,000.",
+    "source_url": "https://poreskauprava.gov.me/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "morocco",
+    "standard": 20,
+    "reduced": [14, 10, 7],
+    "zero": false,
+    "notes": "TVA 20% standard. Reduced 14% (transport, butter). Reduced 10% (banking, hotels, restaurants). Reduced 7% (water, electricity, medicines, school supplies). Registration threshold MAD 500,000 for services.",
+    "source_url": "https://www.tax.gov.ma/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "nauru",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "No VAT. Employment & services tax 10% applies to resident services. Invoices typically do not include consumption tax.",
+    "source_url": "https://www.nauru.gov.nr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "nepal",
+    "standard": 13,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 13% standard. Registration threshold NPR 5,000,000 for goods or NPR 3,000,000 for services. Exports zero-rated.",
+    "source_url": "https://ird.gov.np/",
     "verified_date": "2026-05-01"
   },
   {
@@ -99,6 +567,141 @@
     "verified_date": "2026-05-01"
   },
   {
+    "country": "nigeria",
+    "standard": 7.5,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 7.5% (raised from 5% on 1 Feb 2020). Registration threshold NGN 25,000,000 annual turnover. Exports zero-rated.",
+    "source_url": "https://www.firs.gov.ng/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "norway",
+    "standard": 25,
+    "reduced": [15, 12, 6],
+    "zero": false,
+    "notes": "MVA 25% standard. Reduced 15% (food). Reduced 12% (passenger transport, accommodation, cinema, museums). Reduced 6% — no longer in regular use; main rates are 25/15/12. Registration threshold NOK 50,000.",
+    "source_url": "https://www.skatteetaten.no/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "pakistan",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "Federal sales tax (GST) on goods 18% (raised from 17% in 2023). Services are taxed by provinces — Sindh 13%, Punjab 16%, KPK 15%, Balochistan 15%, ICT 16%. Thresholds vary by jurisdiction.",
+    "source_url": "https://www.fbr.gov.pk/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "palau",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "No VAT. A 4% gross revenue tax applies to businesses. Invoices typically do not include consumption tax.",
+    "source_url": "https://www.palaugov.pw/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "panama",
+    "standard": 7,
+    "reduced": [10, 15],
+    "zero": false,
+    "notes": "ITBMS 7% standard. Increased 10% on alcohol and lodging. Increased 15% on tobacco. Registration threshold US$36,000 annual turnover.",
+    "source_url": "https://dgi.mef.gob.pa/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "peru",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "IGV 18% (combines 16% VAT + 2% municipal promotion tax). No reduced rates. 'Nuevo RUS' simplified regime available for small sole proprietors. Exports zero-rated.",
+    "source_url": "https://www.gob.pe/sunat",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "philippines",
+    "standard": 12,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 12% standard. Registration threshold PHP 3,000,000 annual gross sales. Below threshold a 3% percentage tax (non-VAT) applies instead. Exports zero-rated.",
+    "source_url": "https://www.bir.gov.ph/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "poland",
+    "standard": 23,
+    "reduced": [8, 5],
+    "zero": false,
+    "notes": "VAT 23% standard. Reduced 8% (some food, accommodation, restaurants, medicines). Reduced 5% (basic food, books, periodicals). Registration threshold PLN 200,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.podatki.gov.pl/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "portugal",
+    "standard": 23,
+    "reduced": [13, 6],
+    "zero": false,
+    "notes": "IVA 23% mainland (22% Madeira, 18% Azores). Intermediate 13%, reduced 6% (super-reduced for food, books, medicines). Threshold for services raised to €15,000 (2025). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.portaldasfinancas.gov.pt/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "reunion",
+    "standard": 8.5,
+    "reduced": [2.1],
+    "zero": false,
+    "notes": "TVA at lower rates than mainland France: 8.5% standard, 2.1% reduced. Same regime as Guadeloupe and Martinique. EU rules apply for B2B services to other EU member states.",
+    "source_url": "https://www.economie.gouv.fr/entreprises/tva-taux",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "romania",
+    "standard": 21,
+    "reduced": [11],
+    "zero": false,
+    "notes": "TVA 21% (raised from 19% on 1 Aug 2025). Reduced 11% (consolidated from prior 9% and 5% rates on 1 Aug 2025) for food, medicines, books, accommodation, water. Registration threshold RON 300,000. EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.anaf.ro/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "saint-barthelemy",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "No VAT — Saint Barthélemy has an autonomous tax regime separate from France. Local 'droit de quai' applies on some imports. Invoices typically do not include consumption tax.",
+    "source_url": "https://www.comstbarth.fr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "saint-martin",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "TVA does not apply in the French part of Saint-Martin. Local taxes apply instead. Invoices for services typically do not include consumption tax.",
+    "source_url": "https://www.com-saint-martin.fr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "saint-pierre-and-miquelon",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "No VAT. Local taxes apply (octroi de mer-style consumption duty and other levies). Invoices typically do not include consumption tax.",
+    "source_url": "https://www.spm.gouv.fr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "san-marino",
+    "standard": 17,
+    "reduced": [],
+    "zero": false,
+    "notes": "San Marino does not use VAT. Imposta Monofase (single-stage import/sales tax) applies at 17% on goods at first sale. Services are taxed differently. Cross-border arrangements with Italy are governed by special rules.",
+    "source_url": "https://www.tributi.sm/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "singapore",
     "standard": 9,
     "reduced": [],
@@ -108,12 +711,147 @@
     "verified_date": "2026-04-24"
   },
   {
+    "country": "slovakia",
+    "standard": 23,
+    "reduced": [19, 5],
+    "zero": false,
+    "notes": "DPH 23% (raised from 20% on 1 Jan 2025). Reduced 19% (some medicines, accommodation, restaurants). Reduced 5% (books, basic food, medicines, social housing). Registration threshold €50,000 (raised). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.financnasprava.sk/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "slovenia",
+    "standard": 22,
+    "reduced": [9.5, 5],
+    "zero": false,
+    "notes": "DDV 22% standard. Reduced 9.5% (food, books, hotels, sports). Reduced 5% (books, e-publications). Registration threshold €60,000 (raised). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.fu.gov.si/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "south-africa",
+    "standard": 15,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 15% standard. No reduced rates; some essentials (basic food, fuel, some education) zero-rated. Registration threshold ZAR 1,000,000 in any 12-month period. (Proposed increase to 15.5% withdrawn in April 2025.) Exports zero-rated.",
+    "source_url": "https://www.sars.gov.za/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "south-korea",
     "standard": 10,
     "reduced": [],
     "zero": false,
     "notes": "VAT 10% flat — no reduced rates. Registration required for businesses with taxable supplies. Simplified taxpayer regime available for sole proprietors with annual turnover below KRW 80M (lower rate via deemed input credits). Exports of services to non-residents zero-rated.",
     "source_url": "https://www.nts.go.kr/english/main.do",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "spain",
+    "standard": 21,
+    "reduced": [10, 4],
+    "zero": false,
+    "notes": "IVA 21% standard. Reduced 10% (food, transport, hotels, healthcare). Super-reduced 4% (basic food, books, medicines, social housing). Autónomos generally must register and charge IVA from the first invoice (no small-business exemption equivalent). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.agenciatributaria.es/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "sri-lanka",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 18% (raised from 15% on 1 Jan 2024). Registration threshold LKR 60,000,000 over any 12-month period (or LKR 15M per quarter). Exports zero-rated.",
+    "source_url": "https://www.ird.gov.lk/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "sweden",
+    "standard": 25,
+    "reduced": [12, 6],
+    "zero": false,
+    "notes": "Moms 25% standard. Reduced 12% (food, restaurants, hotels). Reduced 6% (newspapers, books, transport, cultural events). Registration threshold SEK 120,000 (raised in 2025). EU reverse-charge typically applies for B2B intra-EU services.",
+    "source_url": "https://www.skatteverket.se/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "switzerland",
+    "standard": 8.1,
+    "reduced": [3.8, 2.6],
+    "zero": false,
+    "notes": "MWST/TVA/IVA 8.1% standard (raised from 7.7% on 1 Jan 2024). Special accommodation rate 3.8%. Reduced 2.6% (food, books, medicines, newspapers). Registration threshold CHF 100,000 worldwide turnover. Exports zero-rated.",
+    "source_url": "https://www.estv.admin.ch/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "taiwan",
+    "standard": 5,
+    "reduced": [],
+    "zero": false,
+    "notes": "Business tax (VAT-equivalent) 5% standard for most businesses. Special rates apply to financial institutions and small businesses. General taxation applies above NT$200,000 per two-month period.",
+    "source_url": "https://www.etax.nat.gov.tw/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "tanzania",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 18% standard. Registration threshold TZS 100,000,000 annual turnover. Exports zero-rated. Zanzibar has a separate 15% VAT regime.",
+    "source_url": "https://www.tra.go.tz/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "thailand",
+    "standard": 7,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT statutorily 10% but reduced to 7% by royal decree — extension typically renewed annually. Registration threshold THB 1,800,000. Exports of services to non-residents zero-rated where conditions met.",
+    "source_url": "https://www.rd.go.th/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "timor-leste",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "No VAT. Services tax 5% on hotels, restaurants, telecom and similar services. Sales tax 2.5% on imported goods. Invoices for services to overseas clients typically do not include consumption tax.",
+    "source_url": "https://www.mof.gov.tl/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "turkey",
+    "standard": 20,
+    "reduced": [10, 1],
+    "zero": false,
+    "notes": "KDV 20% standard (raised from 18% on 10 Jul 2023). Reduced 10% (some food, books, medicines — raised from 8%). Super-reduced 1% (basic food, newspapers, periodicals).",
+    "source_url": "https://www.gib.gov.tr/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "uganda",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 18% standard. Registration threshold UGX 150,000,000 annual turnover. Exports zero-rated.",
+    "source_url": "https://www.ura.go.ug/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "ukraine",
+    "standard": 20,
+    "reduced": [14, 7],
+    "zero": false,
+    "notes": "VAT 20% standard. Reduced 14% (some agricultural products). Reduced 7% (medicines, healthcare). Registration threshold UAH 1,000,000 over any 12-month period. Exports zero-rated.",
+    "source_url": "https://tax.gov.ua/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "united-arab-emirates",
+    "standard": 5,
+    "reduced": [],
+    "zero": false,
+    "notes": "Federal VAT 5% across all emirates (including Dubai and Abu Dhabi). Registration threshold AED 375,000 mandatory; AED 187,500 voluntary. Exports of services to non-residents zero-rated. Some designated free-zones have specific rules.",
+    "source_url": "https://tax.gov.ae/",
     "verified_date": "2026-05-01"
   },
   {
@@ -135,12 +873,39 @@
     "verified_date": "2026-04-24"
   },
   {
+    "country": "uruguay",
+    "standard": 22,
+    "reduced": [10],
+    "zero": false,
+    "notes": "IVA 22% standard. Reduced 10% (basic food, medicines, hotels, some health services). Monotributo regime available for very small businesses. Exports zero-rated.",
+    "source_url": "https://www.dgi.gub.uy/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "vatican-city",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "Vatican City has no VAT — sui generis tax-exempt jurisdiction. Limited commercial activity; goods sold from Vatican shops are not subject to VAT. Cross-border arrangements with Italy follow special bilateral rules.",
+    "source_url": "https://www.vaticanstate.va/",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "vietnam",
     "standard": 10,
     "reduced": [5],
     "zero": false,
     "notes": "VAT standard 10%, reduced 5% (essential goods/services: clean water, agricultural inputs, medical equipment, books). Temporary 2-point reduction (10% → 8%) extended for many goods/services through 30 June 2026 — confirm sector eligibility. Exports of services zero-rated where conditions met. Registration generally required for all business activity.",
     "source_url": "https://www.gdt.gov.vn/wps/portal/english",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "zambia",
+    "standard": 16,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 16% standard. Registration threshold ZMW 800,000 annual turnover. Exports zero-rated.",
+    "source_url": "https://www.zra.org.zm/",
     "verified_date": "2026-05-01"
   }
 ]
