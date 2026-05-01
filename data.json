@@ -1,12 +1,48 @@
 [
   {
-    "country": "united-states",
-    "standard": null,
+    "country": "australia",
+    "standard": 10,
     "reduced": [],
     "zero": false,
-    "notes": "No federal VAT. Sales tax is levied at the state level and varies by state (0% in OR, NH, MT, DE, AK; up to ~10% combined state+local elsewhere). Freelancers typically don't charge sales tax on services — but some states tax specific services. Confirm per state before invoicing.",
-    "source_url": "https://www.taxadmin.org/state-tax-agencies",
-    "verified_date": "2026-04-24"
+    "notes": "GST is 10%. Registration required if GST turnover is A$75,000 or more (A$150,000 for non-profits); voluntary below. Exports of services to non-residents outside Australia are GST-free (zero-rated). Some items (most basic food, healthcare, education) are GST-free.",
+    "source_url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "canada",
+    "standard": 5,
+    "reduced": [],
+    "zero": false,
+    "notes": "Federal GST is 5%. Five provinces use HST (13% in ON; 15% in NB, NL, NS, PE) which combines GST + provincial. QC, BC, SK, MB apply a separate provincial sales tax (PST/QST) on top of the 5% GST. Registration required if worldwide taxable revenues exceed C$30,000 in any 4 consecutive quarters. Exports of services to non-residents typically zero-rated.",
+    "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "china",
+    "standard": 13,
+    "reduced": [9, 6],
+    "zero": false,
+    "notes": "Standard VAT 13% (sale/import of goods, processing). 9% applies to transport, postal, basic telecom, construction, real estate, agricultural products. 6% applies to modern services (R&D, IT, consulting), financial services, value-added telecom. Small-scale taxpayers (turnover ≤ CN¥5M) pay 3% (temporarily reduced to 1% through 2027). Exports of services generally zero-rated or exempt.",
+    "source_url": "http://www.chinatax.gov.cn/eng/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "france",
+    "standard": 20,
+    "reduced": [10, 5.5, 2.1],
+    "zero": false,
+    "notes": "TVA standard 20%. Intermediate 10% (restaurants, transport, some services). Reduced 5.5% (most food, books, some cultural goods). Super-reduced 2.1% (press, some medicines). Franchise en base de TVA threshold for services: €39,100 (2025) — below this, freelancers do not charge TVA. B2B services to clients in other EU countries typically reverse-charged.",
+    "source_url": "https://www.economie.gouv.fr/entreprises/tva-taux",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "germany",
+    "standard": 19,
+    "reduced": [7],
+    "zero": false,
+    "notes": "Umsatzsteuer (USt) standard 19%, reduced 7% (food, books, periodicals, public transport). Kleinunternehmer (small business) regulation: no USt charged if previous year's turnover ≤ €22,000 and current year ≤ €100,000 (since 2025 reform). B2B services to clients in other EU countries typically reverse-charged.",
+    "source_url": "https://www.bzst.de/EN/Businesses/VAT/vat_node.html",
+    "verified_date": "2026-05-01"
   },
   {
     "country": "hong-kong",
@@ -18,6 +54,51 @@
     "verified_date": "2026-04-24"
   },
   {
+    "country": "israel",
+    "standard": 18,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT (Ma'am) raised to 18% on 1 January 2025 (from 17%). No reduced rates. 'Osek Patur' (exempt dealer) status available for annual turnover below ~ILS 120,000 — does not charge VAT. Exports of services to non-residents are zero-rated.",
+    "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "japan",
+    "standard": 10,
+    "reduced": [8],
+    "zero": false,
+    "notes": "Consumption tax (shōhizei) 10% standard; 8% reduced for food/beverages (excl. dining out and alcohol) and subscription newspapers. Registration required if taxable sales in the base period exceed ¥10M. Qualified Invoice System (inboisu seido) in effect since Oct 2023 — buyers need a registered invoice number to claim input credits. Exports zero-rated.",
+    "source_url": "https://www.nta.go.jp/english/taxes/consumption_tax/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "malaysia",
+    "standard": 8,
+    "reduced": [6],
+    "zero": false,
+    "notes": "Malaysia uses Sales and Service Tax (SST), not VAT. Service Tax 8% (raised from 6% on 1 March 2024) on most taxable services; 6% retained for food & beverage, telecom, parking, logistics. Sales Tax on goods 5% or 10%. Service Tax registration threshold typically RM 500,000 annual turnover (varies by service category). Exports of services generally not subject to service tax.",
+    "source_url": "https://mysst.customs.gov.my/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "netherlands",
+    "standard": 21,
+    "reduced": [9],
+    "zero": false,
+    "notes": "BTW standard 21%, reduced 9% (food, books, medicines, public transport, hairdressers). Kleineondernemersregeling (KOR): annual turnover ≤ €20,000 can opt out of charging BTW. B2B services to clients in other EU countries typically reverse-charged.",
+    "source_url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/vat/",
+    "verified_date": "2026-05-01"
+  },
+  {
+    "country": "new-zealand",
+    "standard": 15,
+    "reduced": [],
+    "zero": false,
+    "notes": "GST 15% flat — no reduced rates. Registration required if turnover exceeds NZ$60,000 in a 12-month period; voluntary below. Exports of services to non-residents outside NZ are zero-rated.",
+    "source_url": "https://www.ird.govt.nz/gst",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "singapore",
     "standard": 9,
     "reduced": [],
@@ -27,6 +108,15 @@
     "verified_date": "2026-04-24"
   },
   {
+    "country": "south-korea",
+    "standard": 10,
+    "reduced": [],
+    "zero": false,
+    "notes": "VAT 10% flat — no reduced rates. Registration required for businesses with taxable supplies. Simplified taxpayer regime available for sole proprietors with annual turnover below KRW 80M (lower rate via deemed input credits). Exports of services to non-residents zero-rated.",
+    "source_url": "https://www.nts.go.kr/english/main.do",
+    "verified_date": "2026-05-01"
+  },
+  {
     "country": "united-kingdom",
     "standard": 20,
     "reduced": [5],
@@ -34,5 +124,23 @@
     "notes": "Standard rate 20%, reduced rate 5% (e.g., children's car seats, home energy). VAT registration required if taxable turnover exceeds £90,000 (2024/25 threshold); voluntary below. Services to overseas business customers usually outside scope — apply place-of-supply rules.",
     "source_url": "https://www.gov.uk/vat-rates",
     "verified_date": "2026-04-24"
+  },
+  {
+    "country": "united-states",
+    "standard": null,
+    "reduced": [],
+    "zero": false,
+    "notes": "No federal VAT. Sales tax is levied at the state level and varies by state (0% in OR, NH, MT, DE, AK; up to ~10% combined state+local elsewhere). Freelancers typically don't charge sales tax on services — but some states tax specific services. Confirm per state before invoicing.",
+    "source_url": "https://www.taxadmin.org/state-tax-agencies",
+    "verified_date": "2026-04-24"
+  },
+  {
+    "country": "vietnam",
+    "standard": 10,
+    "reduced": [5],
+    "zero": false,
+    "notes": "VAT standard 10%, reduced 5% (essential goods/services: clean water, agricultural inputs, medical equipment, books). Temporary 2-point reduction (10% → 8%) extended for many goods/services through 30 June 2026 — confirm sector eligibility. Exports of services zero-rated where conditions met. Registration generally required for all business activity.",
+    "source_url": "https://www.gdt.gov.vn/wps/portal/english",
+    "verified_date": "2026-05-01"
   }
 ]
