@@ -1,0 +1,38 @@
+[
+  {
+    "country": "united-states",
+    "standard": null,
+    "reduced": [],
+    "zero": false,
+    "notes": "No federal VAT. Sales tax is levied at the state level and varies by state (0% in OR, NH, MT, DE, AK; up to ~10% combined state+local elsewhere). Freelancers typically don't charge sales tax on services — but some states tax specific services. Confirm per state before invoicing.",
+    "source_url": "https://www.taxadmin.org/state-tax-agencies",
+    "verified_date": "2026-04-24"
+  },
+  {
+    "country": "hong-kong",
+    "standard": null,
+    "reduced": [],
+    "zero": true,
+    "notes": "Hong Kong has no VAT, GST, or sales tax. Invoices do not include consumption tax. Income is taxed via profits tax or salaries tax at assessment, not at the invoice.",
+    "source_url": "https://www.ird.gov.hk/eng/tax/bus_pft.htm",
+    "verified_date": "2026-04-24"
+  },
+  {
+    "country": "singapore",
+    "standard": 9,
+    "reduced": [],
+    "zero": false,
+    "notes": "GST is 9% since 1 Jan 2024 (raised from 8%). Registration required if taxable turnover exceeds S$1M in a 12-month period; optional below the threshold. Exports of services to overseas clients are zero-rated.",
+    "source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/current-gst-rates",
+    "verified_date": "2026-04-24"
+  },
+  {
+    "country": "united-kingdom",
+    "standard": 20,
+    "reduced": [5],
+    "zero": false,
+    "notes": "Standard rate 20%, reduced rate 5% (e.g., children's car seats, home energy). VAT registration required if taxable turnover exceeds £90,000 (2024/25 threshold); voluntary below. Services to overseas business customers usually outside scope — apply place-of-supply rules.",
+    "source_url": "https://www.gov.uk/vat-rates",
+    "verified_date": "2026-04-24"
+  }
+]
